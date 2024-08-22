@@ -1,0 +1,67 @@
+/* Define uma cor de fundo para o corpo da página */
+body {
+    background-color: #F4A460; /* Cor de fundo suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Centraliza o conteúdo dentro da div principal */
+#main {
+    text-align: center;
+    background-color: #ffffff; /* Cor de fundo para o bloco principal */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+#test {
+    padding: 15px
+}
+
+/* Estilo dos inputs */
+input[type="number"] {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo do botão */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo dos parágrafos */
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#media {
+    font-weight: bold;
+}
+
+#status {
+    font-weight: bold;
+    color: #ff0000; /* Cor do status */
+}
